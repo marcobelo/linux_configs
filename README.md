@@ -1,0 +1,1 @@
+Auto config your newly installed linux.
