@@ -11,4 +11,11 @@ yay -Syyu --noconfirm \
     docker-compose \
     nvm \
     jdk \
-    steam-manjaro
+    steam-native \
+    steam-manjaro \
+    github-cli \
+    insomnia \
+    nerd-fonts-complete
+
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
+exec $SHELL
