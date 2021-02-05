@@ -15,6 +15,7 @@ yay -Syyu --noconfirm \
     steam-manjaro \
     github-cli \
     insomnia \
+    discord \
     nerd-fonts-complete
 
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
