@@ -34,12 +34,3 @@ exec $SHELL
 
 flatpak install flathub com.github.calo001.fondo
 snap install slack spotify --classic
-
-
-#* Configuring wacom:
-#* list monitor devices
-# $ xrandr --query
-#* list wacom devices
-# $ xsetwacom list devices
-#* set wacom to be confined in one monitor
-# $ xsetwacom set 19 MapToOutput 1920x1080+1280+0
