@@ -22,15 +22,15 @@ yay -Syyu --noconfirm \
     github-desktop \
     insomnia \
     discord \
-    xf86-input-wacom \
     flameshot \
-    minder \
     dockbarx \
     jetbrains-toolbox \
-    nerd-fonts-complete
+    nerd-fonts-complete \
+    xf86-input-wacom
 
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
 exec $SHELL
 
-flatpak install flathub com.github.calo001.fondo
-snap install slack spotify --classic
+# flatpak install flathub com.github.calo001.fondo
+snap install slack --classic
+snap install spotify --classic
