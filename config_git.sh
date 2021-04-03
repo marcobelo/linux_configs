@@ -14,7 +14,7 @@ echo "[core]
     c = !git add --all && git commit -m
     l = !git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'" >> ~/.gitconfig
 
-ssh-keygen -t rsa -b 4096 -C "$GIT_USER_EMAIL"
+ssh-keygen -t ed25519 -C "$GIT_USER_EMAIL"
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-xclip -sel clip < ~/.ssh/id_rsa.pub
+ssh-add ~/.ssh/id_ed25519
+xclip -sel clip < ~/.ssh/id_ed25519.pub
